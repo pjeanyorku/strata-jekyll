@@ -4,3 +4,7 @@ sitemap:
   exclude: true
 ---
 @import "main.scss";
+
+body {
+    background-color: red !important;
+}
