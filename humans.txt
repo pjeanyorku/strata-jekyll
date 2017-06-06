@@ -1,8 +1,9 @@
 ---
-layout: null
+layout: 
 sitemap:
   exclude: true
 ---
+
 /* THANKS */
   Jekyll Development: David Forster
   Twitter: @DavidForster
