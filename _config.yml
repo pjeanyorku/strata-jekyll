@@ -1,28 +1,30 @@
+---
 title: Strata by HTML5 UP
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 author: Philippe Jean
-description: >
-  **I am Strata**, a super simple
-  responsive site template freebie
-  crafted by [HTML5 UP](http://html5up.net).
+description: "**I am Strata**, a super simple responsive site template freebie crafted
+  by [HTML5 UP](http://html5up.net).\n"
 copyright: Untitled
-
 url: http://pjeanyorku.github.io
-baseurl: /ysdn2005
-
+baseurl: "/ysdn2005"
 include:
 - assets
-
 sass:
   sass_dir: assets/sass
-
 disqus_shortname: stratajekylldemo
 twitter_username: "#"
 linkedin_username: "#"
-github_username:  "#"
-
+github_username: "#"
 feed_icon: rss
 email: "#"
-
-gems: [jekyll-paginate]
+gems:
+- jekyll-paginate
 paginate_path: "/page/:num/"
 paginate: 5
